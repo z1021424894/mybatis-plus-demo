@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dw.exadwdmple.mybfwatisplusdemo.test.mapper.PictureMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="dw.exadwdmple.mybfwatisplusdemo.test.entity.Picture">
+        <id column="id" property="id" />
+        <result column="pictures_id" property="picturesId" />
+        <result column="url" property="url" />
+        <result column="last_update_date" property="lastUpdateDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, pictures_id, url, last_update_date
+    </sql>
+
+</mapper>
