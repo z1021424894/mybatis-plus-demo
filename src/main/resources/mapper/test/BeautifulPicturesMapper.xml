@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="dw.exadwdmple.mybfwatisplusdemo.test.mapper.BeautifulPicturesMapper">
+<mapper namespace="com.example.mybatisplusdemo.test.mapper.BeautifulPicturesMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="dw.exadwdmple.mybfwatisplusdemo.test.entity.BeautifulPictures">
+    <resultMap id="BaseResultMap" type="com.example.mybatisplusdemo.test.entity.BeautifulPictures">
         <id column="id" property="id" />
         <result column="title" property="title" />
         <result column="url" property="url" />

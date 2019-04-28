@@ -20,7 +20,6 @@ public class CodeGenerator {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = "E:\\IdeaProjects\\mybatis-plus-demo";
         gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setAuthor("zmf");
         gc.setOpen(false);
         //gc.setFileOverride(true);// 是否覆盖同名文件，默认是false
         //gc.setActiveRecord(true);// 不需要ActiveRecord特性的请改为false
